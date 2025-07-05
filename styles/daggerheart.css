@@ -1526,28 +1526,28 @@ fieldset.daggerheart.chat .daggerheart.chat {
   filter: brightness(0) saturate(100%) invert(9%) sepia(78%) saturate(6903%) hue-rotate(11deg) brightness(93%) contrast(117%);
 }
 .daggerheart.chat.roll .dice-total.duality.hope {
-  border-color: #ffe760;
+  border-color: #f3c267;
   border-width: 3px;
-  background: rgba(255, 231, 96, 0.5);
+  background: rgba(243, 194, 103, 0.5);
 }
 .daggerheart.chat.roll .dice-total.duality.fear {
-  border-color: #0032b1;
+  border-color: #2c63ab;
   border-width: 3px;
-  background: rgba(0, 50, 177, 0.5);
+  background: rgba(44, 99, 171, 0.5);
 }
 .daggerheart.chat.roll .dice-total.duality.critical {
-  border-color: #430070;
+  border-color: #ab2ab4;
   border-width: 3px;
-  background: rgba(67, 0, 112, 0.5);
+  background: rgba(171, 42, 180, 0.5);
 }
 .daggerheart.chat.roll .dice-total .dice-total-value .hope {
-  color: #ffe760;
+  color: #f3c267;
 }
 .daggerheart.chat.roll .dice-total .dice-total-value .fear {
-  color: #0032b1;
+  color: #2c63ab;
 }
 .daggerheart.chat.roll .dice-total .dice-total-value .critical {
-  color: #430070;
+  color: #ab2ab4;
 }
 .daggerheart.chat.roll .dice-total-label {
   font-size: 12px;
@@ -1592,10 +1592,10 @@ fieldset.daggerheart.chat .daggerheart.chat {
   border: 0;
 }
 .daggerheart.chat.roll .target-section .target-container.hit {
-  background: #008000;
+  background: #0dc31e;
 }
 .daggerheart.chat.roll .target-section .target-container.miss {
-  background: #ff0000;
+  background: #c3390d;
 }
 .daggerheart.chat.roll .target-section .target-container img,
 .daggerheart.chat.roll .target-section .target-container .target-save-container {
@@ -1669,7 +1669,7 @@ fieldset.daggerheart.chat .daggerheart.chat {
 }
 .daggerheart.chat.domain-card .ability-card-footer button {
   border-radius: 6px;
-  background: #699969;
+  background: #76f6a1;
   border-color: black;
   flex-basis: calc(50% - 2px);
 }
@@ -1719,13 +1719,13 @@ fieldset.daggerheart.chat .daggerheart.chat {
   padding: 0 8px;
 }
 .theme-colorful .chat-message.duality.hope {
-  background: linear-gradient(0, rgba(165, 42, 42, 0.6) 40px, rgba(0, 0, 0, 0.6));
+  background: linear-gradient(149deg, #d26b09 0%, #ee8010 12%, #ef962f 30%, #f2b93f 50%, #f3c267 61%, #f6ed8c 100%);
 }
 .theme-colorful .chat-message.duality.fear {
-  background: linear-gradient(0, rgba(0, 0, 255, 0.6), rgba(15, 15, 97, 0.6));
+  background: linear-gradient(149deg, #382d7a 0%, #36337f 12%, #324590 30%, #2c63ab 50%, #2878be 61%, #81cdc3 100%);
 }
 .theme-colorful .chat-message.duality.critical {
-  background: linear-gradient(0, rgba(128, 0, 128, 0.6), rgba(37, 8, 37, 0.6));
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
 }
 .theme-colorful .chat-message.duality .chat-message header {
   color: var(--color-light-3);
@@ -3416,7 +3416,7 @@ div.daggerheart.views.multiclass {
   justify-content: center;
   align-items: center;
   width: 3rem;
-  background-color: rgba(9, 71, 179, 0.75);
+  background-color: rgba(44, 99, 171, 0.75);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   color: #d3d3d3;
@@ -4022,19 +4022,19 @@ body.theme-light.application .character-sidebar-sheet .experience-value {
   border-radius: 6px;
 }
 .application.sheet.dh-style .character-sidebar-sheet .info-section .resources-section .status-bar .progress-bar::-webkit-progress-value {
-  background: linear-gradient(15deg, #46140a 0%, #be0000 42%, #fcb045 100%);
+  background: linear-gradient(149deg, #852222 0%, #932a1f 12%, #a82612 30%, #c3390d 50%, #cd4821 61%, #f69d76 100%);
   border-radius: 6px;
 }
 .application.sheet.dh-style .character-sidebar-sheet .info-section .resources-section .status-bar .progress-bar.stress-color::-webkit-progress-value {
-  background: linear-gradient(15deg, #823b01 0%, #fc8e45 65%, #be0000 100%);
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
   border-radius: 6px;
 }
 .application.sheet.dh-style .character-sidebar-sheet .info-section .resources-section .status-bar .progress-bar::-moz-progress-bar {
-  background: linear-gradient(15deg, #46140a 0%, #be0000 42%, #fcb045 100%);
+  background: linear-gradient(149deg, #852222 0%, #932a1f 12%, #a82612 30%, #c3390d 50%, #cd4821 61%, #f69d76 100%);
   border-radius: 6px;
 }
 .application.sheet.dh-style .character-sidebar-sheet .info-section .resources-section .status-bar .progress-bar.stress-color::-moz-progress-bar {
-  background: linear-gradient(15deg, #823b01 0%, #fc8e45 65%, #be0000 100%);
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
   border-radius: 6px;
 }
 .application.sheet.dh-style .character-sidebar-sheet .info-section .status-section {
@@ -4576,19 +4576,19 @@ body.theme-light.application .character-sidebar-sheet .experience-value {
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.adversary .adversary-sidebar-sheet .info-section .resources-section .status-bar .progress-bar::-webkit-progress-value {
-  background: linear-gradient(15deg, #46140a 0%, #be0000 42%, #fcb045 100%);
+  background: linear-gradient(149deg, #852222 0%, #932a1f 12%, #a82612 30%, #c3390d 50%, #cd4821 61%, #f69d76 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.adversary .adversary-sidebar-sheet .info-section .resources-section .status-bar .progress-bar.stress-color::-webkit-progress-value {
-  background: linear-gradient(15deg, #823b01 0%, #fc8e45 65%, #be0000 100%);
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.adversary .adversary-sidebar-sheet .info-section .resources-section .status-bar .progress-bar::-moz-progress-bar {
-  background: linear-gradient(15deg, #46140a 0%, #be0000 42%, #fcb045 100%);
+  background: linear-gradient(149deg, #852222 0%, #932a1f 12%, #a82612 30%, #c3390d 50%, #cd4821 61%, #f69d76 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.adversary .adversary-sidebar-sheet .info-section .resources-section .status-bar .progress-bar.stress-color::-moz-progress-bar {
-  background: linear-gradient(15deg, #823b01 0%, #fc8e45 65%, #be0000 100%);
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.adversary .adversary-sidebar-sheet .info-section .status-section {
@@ -5236,19 +5236,19 @@ body.theme-light.application.environment {
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.companion .companion-header-sheet .status-section .status-bar .progress-bar::-webkit-progress-value {
-  background: linear-gradient(15deg, #46140a 0%, #be0000 42%, #fcb045 100%);
+  background: linear-gradient(149deg, #852222 0%, #932a1f 12%, #a82612 30%, #c3390d 50%, #cd4821 61%, #f69d76 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.companion .companion-header-sheet .status-section .status-bar .progress-bar.stress-color::-webkit-progress-value {
-  background: linear-gradient(15deg, #823b01 0%, #fc8e45 65%, #be0000 100%);
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.companion .companion-header-sheet .status-section .status-bar .progress-bar::-moz-progress-bar {
-  background: linear-gradient(15deg, #46140a 0%, #be0000 42%, #fcb045 100%);
+  background: linear-gradient(149deg, #852222 0%, #932a1f 12%, #a82612 30%, #c3390d 50%, #cd4821 61%, #f69d76 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.companion .companion-header-sheet .status-section .status-bar .progress-bar.stress-color::-moz-progress-bar {
-  background: linear-gradient(15deg, #823b01 0%, #fc8e45 65%, #be0000 100%);
+  background: linear-gradient(149deg, #4c2866 0%, #642b7f 12%, #83279a 30%, #ab2ab4 50%, #c135b8 61%, #ed9cd3 100%);
   border-radius: 6px;
 }
 .application.sheet.daggerheart.actor.dh-style.companion .companion-header-sheet .status-section .level-up-label {

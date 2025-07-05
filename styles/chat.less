@@ -428,13 +428,13 @@ fieldset.daggerheart.chat {
             padding: 0 8px;
         }
         &.hope {
-            background: linear-gradient(0, rgba(165, 42, 42, 0.6) 40px, rgba(0, 0, 0, 0.6));
+            background: @hopeGradient;
         }
         &.fear {
-            background: linear-gradient(0, @fearBackgroundEnd, @fearBackgroundStart);
+            background: @fearGradient;
         }
         &.critical {
-            background: linear-gradient(0, @criticalBackgroundEnd, @criticalBackgroundStart);
+            background: @criticalGradient;
         }
         .chat-message header {
             color: var(--color-light-3);
